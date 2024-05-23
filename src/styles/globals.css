@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { transform: translateX(10px); }
+}
+
+.shake {
+  animation: shake 1.5s;
+}
+
+  @keyframes orbit {
+    0% {
+      left: 220px;
+      top: -60px;
+    }
+    14% {
+      left: 10px;
+      top: 36px;
+    }
+    28%{
+      left: -64px;
+      top: 224px;
+    }
+    42%{
+      left:48px;
+      top: 460px;
+    }
+    56%{
+      left: 397px;
+      top: 460px;
+    }
+    70%{
+      left: 510px;
+      top: 224px;
+    }
+    84%{
+      left: 432px;
+      top: 36px;
+    }
+    100% {
+      left: 220px;
+      top: -60px;
+    }
+  }
+  @keyframes orbit2 {
+    0% {
+      left: 10px;
+      top: 36px;
+    }
+    14% {
+      left: -64px;
+      top: 224px;
+    }
+    28%{
+      left: 48px;
+      top: 460px;
+    }
+    42%{
+      left:397px;
+      top: 460px;
+    }
+    56%{
+      left: 510px;
+      top: 224px;
+    }
+    70%{
+      left: 432px;
+      top: 36px;
+    }
+    84%{
+      left: 220px;
+      top: -60px;
+    }
+    100% {
+      left: 10px;
+      top: 36px;
+    }
+  }
+  @keyframes orbit3 {
+    0% {
+      left: -64px;
+      top: 224px;
+    }
+    14% {
+      left: 48px;
+      top: 460px;
+    }
+    28%{
+      left: 397px;
+      top: 460px;
+    }
+    42%{
+      left:510px;
+      top: 224px;
+    }
+    56%{
+      left: 432px;
+      top: 36px;
+    }
+    70%{
+      left: 220px;
+      top: -60px;
+    }
+    84%{
+      left: 10px;
+      top: 36px;
+    }
+    100% {
+      left: -64px;
+      top: 224px;
+    }
+  }
+  @keyframes orbit4 {
+    0% {
+      left: 48px;
+      top: 460px;
+    }
+    14% {
+      left: 397px;
+      top: 460px;
+    }
+    28%{
+      left: 510px;
+      top: 224px;
+    }
+    42%{
+      left:432px;
+      top: 36px;
+    }
+    56%{
+      left: 220px;
+      top: -60px;
+    }
+    70%{
+      left: 10px;
+      top: 36px;
+    }
+    84%{
+      left: -64px;
+      top: 224px;
+    }
+    100% {
+      left: 48px;
+      top: 460px;
+    }
+  }
+
+  @keyframes orbit5 {
+    0% {
+      left: 397px;
+      top: 460px;
+    }
+    14% {
+      left: 510px;
+      top: 224px;
+    }
+    28%{
+      left: 432px;
+      top: 36px;
+    }
+    42%{
+      left:220px;
+      top: -60px;
+    }
+    56%{
+      left: 10px;
+      top: 36px;
+    }
+    70%{
+      left: -64px;
+      top: 224px;
+    }
+    84%{
+      left: 48px;
+      top: 460px;
+    }
+    100% {
+      left: 397px;
+      top: 460px;
+    }
+  }
+  @keyframes orbit6 {
+    0% {
+      left: 510px;
+      top: 224px;
+    }
+    14% {
+      left: 432px;
+      top: 36px;
+    }
+    28%{
+      left: 220px;
+      top: -60px;
+    }
+    42%{
+      left:10px;
+      top: 36px;
+    }
+    56%{
+      left: -64px;
+      top: 224px;
+    }
+    70%{
+      left: 48px;
+      top: 460px;
+    }
+    84%{
+      left: 397px;
+      top: 460px;
+    }
+    100% {
+      left: 510px;
+      top: 224px;
+    }
+  }
+  @keyframes orbit7 {
+    0% {
+      left: 432px;
+      top: 36px;
+    }
+    14% {
+      left: 220px;
+      top: -60px;
+    }
+    28%{
+      left: 10px;
+      top: 36px;
+    }
+    42%{
+      left:-64px;
+      top: 224px;
+    }
+    56%{
+      left: 48px;
+      top: 460px;
+    }
+    70%{
+      left: 397px;
+      top: 460px;
+    }
+    84%{
+      left: 510px;
+      top: 224px;
+    }
+    100% {
+      left: 432px;
+      top: 36px;
+    }
+  }
+
+  .orbit {
+    animation: orbit 7s infinite ; 
+  }
+  .orbit2 {
+    animation: orbit2 7s infinite ;
+  }
+  .orbit3 {
+    animation: orbit3 7s infinite;
+  }
+  .orbit4 {
+    animation: orbit4 7s infinite;
+  }
+  .orbit5 {
+    animation: orbit5 7s infinite;
+  }
+  .orbit6 {
+    animation: orbit6 7s infinite;
+  }
+  .orbit7 {
+    animation: orbit7 7s infinite;
+  }
